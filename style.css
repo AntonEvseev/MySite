@@ -1,0 +1,240 @@
+*{
+margin: 0;
+padding: 0;
+}
+.wrapper{
+width: 519px;
+height: 427px;
+margin: 81px 0 0 141px;
+background: #F0F7EA;
+}
+body{
+background: #FFFFE0;
+font-family: 'Lato', sans-serif;
+color: rgb(54, 54, 54);
+}
+.header{
+margin-left: -4px;
+background-image: url(img/header_bg.png);
+height: 71px;
+}
+.name{
+float: left;
+margin: 22px 0 0 24px;
+color: #FFFFFF;
+font-family: 'Lato', sans-serif;
+}
+.header ul{
+float: right;
+display: inline;
+margin: 27px 0 18px 0;
+}
+.header ul li{
+display: inline;
+padding-right: 20px;
+}
+a{
+height: 100px;
+}
+.header ul li a{
+text-decoration: none; 
+color: #FFFFFF;
+font-family: 'Lato', sans-serif;
+}
+.header ul li a:hover{                      /*пока не использую подключу в конце*/
+text-decoration: none; 
+color: #FFFFFF;
+font-family: 'Lato', sans-serif;
+}
+.image{
+width: 150px;
+border: 5px solid transparent;
+border-image: url(img/Layer-5.png);
+border-image-slice: 50;
+border-image-repeat: round;
+height: 151px;
+float: left;
+}
+.foto{
+width: 100%;
+height: 100%;
+}
+.info{
+margin: 28px 0 0 24px;
+}
+.text{
+width: 325px;  
+float: right;
+position: relative;
+bottom: 5px;
+font-size: 12px;
+text-align: justify;
+line-height: 1.5;
+}
+.text h3 {
+font-size: 20px;
+text-align: justify;
+line-height: 1.5;
+color: #A41D1A;
+}
+.text p{
+padding-top: 15px;
+padding-right: 21px
+}
+.skill {
+width: 296px;
+height: 148px;
+float: left;
+position: relative;
+top: 40px;
+right: 161px;
+}
+.col1{ 
+padding-left: 25px;
+padding-bottom: 3px;
+width: 100%;
+font-size: 12px;
+text-align: justify;
+background: url(img/shape-3.png) no-repeat left;
+position: relative;
+right: 4px;
+}
+tr{
+width: 100%;
+}
+table{
+margin-top: 25px;
+}
+.skill h3{
+font-size: 20px;
+text-align: justify;
+line-height: 1.5;
+color: #A41D1A;
+}
+.butn{ 
+position: relative;
+left: 350px;
+bottom: 51px;
+float:left;
+background-image: url(img/button.png);
+width: 150px;
+height: 44px;
+font-size: 20px;
+text-align: justify;
+color: #FFFFFF;
+font-family: 'Lato', sans-serif;
+}
+.butn span{
+position: relative;
+top: 8px;
+left: 16px;
+}
+img#bottom{
+position:absolute;
+left: 105px;
+top: 7px;
+}
+img#top{
+position:relative;
+left: 42px;
+top: 9px;
+width: 15px;
+}
+.line{ 
+position: absolute;
+top: 500px;
+left: 139px;
+height: 15px;
+width:519px;
+} 
+.contacts{
+width: 353px;
+height: 356px;
+} 
+.form {
+width: 335px;
+height: 223px;
+font-family: 'Lato', sans-serif;
+color: #A41D1A;
+}
+.top_input, .avarage_input { 
+border: none;
+background: #F5E9E9 !important;
+color: #CCCCCC;
+font-size: 11px;
+font-family: Tahoma;
+height: 25px; 
+width: 245px;
+outline: none;
+float: right;
+position: relative;
+right: 20px;
+}
+.avarage_input{
+position: relative;
+top: 6px;
+}
+.bottom_input {
+background: #F5E9E9 !important;
+color: #CCCCCC;
+font-size: 11px;
+font-family: Tahoma;
+height: 92px; 
+width: 245px;
+outline: none;
+float: right;
+position: relative;
+top: 27px;
+border: none;
+right: 20px;
+}
+.contacts h3 {
+padding-bottom: 28px;
+font-size: 20px;
+text-align: justify;
+}
+.email {
+position: relative;
+top: 28px;
+}
+.message {
+position: relative;
+top: 57px;
+}
+.my_contacts {
+float: right;
+font-size: 12px;
+position: relative;
+bottom: 300px;
+right: 10px;
+font-family: 'Lato', sans-serif;
+text-align: justify;
+}
+.first {
+color: #F2BBBB;
+font-family: 'Lato', sans-serif;
+text-align: justify;
+line-height: 0.5;
+}
+.two {
+font-family: 'Lato', sans-serif;
+text-align: justify;
+line-height: 0.5;
+}
+.line_v {
+position: relative;
+bottom: 304px;
+left: 329px;
+}
+.send_button{float: left;
+background: #970502;
+width: 80px;
+height: 26px;
+border-radius: 4px;
+position: relative;
+top: 132px;
+left: 235px;
+border: none;
+font-family: 'Lato', sans-serif;
+color: #FFFFFF;
+}

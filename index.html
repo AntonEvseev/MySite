@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Главная</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="header">
+            <div class="name">
+               <h2>Anton Evseev</h2>
+            </div>
+            <div class="menu">
+               <ul class="navigation">
+                  <li><a href="index.html" class="select">about</a></li>
+                  <li><a href="#">work</a></li>
+                  <li><a href="contact.html">contact</a></li>
+               </ul>
+            </div>
+            <!--end menu-->
+         </div>
+         <!--end header-->
+         <div class="info">
+            <div class="image">
+               <img class="foto" src="img/myfoto.png" alt="My foto" />
+            </div>
+            <div class="text">
+               <h3>Hello and Welcome</h3>
+               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+         </div>
+         <!--end info-->
+         <div class="skill">
+            <h3>My Skills</h3>
+            <div class="list_skill">
+               <table>
+                  <tr>
+                     <td class="col1">HTML5,CSS3</td>
+                     <td class="col1">Bootstrap</td>
+                  <tr>
+                     <td class="col1">Javascript(jQuery library)</td>
+                     <td class="col1">Worldpress</td>
+               </table>
+            </div>
+         </div>
+         <!--end skill-->
+         <a href="google.com">
+            <div class="butn"><span>Resume</span><img id="bottom" src="img/ov.png" alt="Picture button" /><img id="top" src="img/shape.png" alt="Picture button" /></div>
+         </a>
+         
+      </div>
+      <!--end wrapper-->
+      <img class="line" src="img/Layer-3.png" alt="Picture button" />
+      <script>
+         $(document).ready(function(){
+         $("body").css("display","none").fadeIn(1000);
+         });
+          
+      </script>
+   </body>
+</html>
