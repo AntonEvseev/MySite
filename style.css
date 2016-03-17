@@ -160,33 +160,38 @@ color: #A41D1A;
 .top_input, .avarage_input { 
 border: none;
 background: #F5E9E9 !important;
-color: #CCCCCC;
+color: rgb(54, 54, 54);
 font-size: 11px;
 font-family: Tahoma;
 height: 25px; 
-width: 245px;
+width: 235px;
 outline: none;
 float: right;
 position: relative;
 right: 20px;
+padding-left: 5px;
+padding-right: 5px;
 }
 .avarage_input{
 position: relative;
 top: 6px;
 }
-.bottom_input {
+.bottom_textarea {
 background: #F5E9E9 !important;
-color: #CCCCCC;
+color: rgb(54, 54, 54);
 font-size: 11px;
 font-family: Tahoma;
-height: 92px; 
-width: 245px;
+height: 82px; 
+width: 235px;
 outline: none;
 float: right;
 position: relative;
 top: 27px;
 border: none;
 right: 20px;
+padding: 5px;
+overflow: auto;
+resize: none;
 }
 .contacts h3 {
 padding-bottom: 28px;
@@ -226,7 +231,8 @@ position: relative;
 bottom: 304px;
 left: 329px;
 }
-.send_button{float: left;
+.send_button{
+float: left;
 background: #970502;
 width: 80px;
 height: 26px;
@@ -237,4 +243,13 @@ left: 235px;
 border: none;
 font-family: 'Lato', sans-serif;
 color: #FFFFFF;
+}
+.link{
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   color: #A41D1A;
+  text-align: justify;
+  position: relative;
+  top: 100px;
+  left: 110px;
 }
